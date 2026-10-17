@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background Modes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Додатку потрібен Bluetooth для підключення до розумної ферми</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Додатку потрібен Bluetooth для отримання даних</string>
+	<key>Task Scheduler Permitted Identifiers</key>
+	<array>
+		<string>com.smartfarm.watercheck</string>
+		<string>com.smartfarm.anothertask</string>
+	</array>
+</dict>
+</plist>
